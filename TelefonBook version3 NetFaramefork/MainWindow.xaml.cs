@@ -190,12 +190,12 @@ namespace TelefonBook_version3_NetFaramefork
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
+            /*
             string ConnectAccess = Properties.Settings.Default.Telefon_base_local;
             OleDbCommand commandAccess = new OleDbCommand();
             OleDbConnection connectionAccess = new OleDbConnection(ConnectAccess);
             connectionAccess.Open();
-
+            
             string connect = "SERVER=localhost;database=telefon_base;UID=root;password=root;";
             MySqlConnection connection = new MySqlConnection(connect);
 
@@ -237,6 +237,7 @@ namespace TelefonBook_version3_NetFaramefork
             
           
             connection.Close();
+            */
         }
     }
 }

@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonBook version3 NetFaramefork", "TelefonBook version3 NetFaramefork\TelefonBook version3 NetFaramefork.csproj", "{97A68B14-8CA4-470A-A088-23116998E89B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C87ADA87-A208-46A6-A630-34935ED95FF9} = {C87ADA87-A208-46A6-A630-34935ED95FF9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Laba\Auth.csproj", "{C87ADA87-A208-46A6-A630-34935ED95FF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{97A68B14-8CA4-470A-A088-23116998E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A68B14-8CA4-470A-A088-23116998E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A68B14-8CA4-470A-A088-23116998E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87ADA87-A208-46A6-A630-34935ED95FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87ADA87-A208-46A6-A630-34935ED95FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87ADA87-A208-46A6-A630-34935ED95FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87ADA87-A208-46A6-A630-34935ED95FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
